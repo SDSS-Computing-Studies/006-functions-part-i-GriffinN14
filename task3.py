@@ -6,8 +6,8 @@ The return value is the sum of all the numbers in the list
 added together
 (2 points)
 """
-def largest(a):
-    a.sort()
-    g = len(a) - 1
-    return a[g]
-print (largest([5,1,12.3]))
+def perimeter(a):
+    b = 0
+    for i in range(len(a)):
+        b = b + a[i-1]
+    return b

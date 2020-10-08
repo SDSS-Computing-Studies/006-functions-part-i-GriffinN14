@@ -9,13 +9,13 @@ Return the missing side
 """
 import math
 def hypotenuse(a,b,c):
-    if c == True:
+    if not c == True:
         h = math.sqrt(a * a + b * b)
-        return h
+        return int(h)
     else:
         if a > b:
             h = math.sqrt(a * a - b * b)
-            return h
+            return int(h)
         elif b > a:
             h = math.sqrt(b * b - a * a)
-            return h
+            return int(h)

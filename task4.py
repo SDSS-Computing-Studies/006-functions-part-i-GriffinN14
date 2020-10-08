@@ -12,4 +12,3 @@ def isInteger(a):
     else:
         b = False
     return b
-print (isInteger(2))

@@ -18,4 +18,5 @@ def distance(a,b):
     else:
         d = b[1] - a[1]
     e = (c,d)
+    e = math.sqrt(c * c + d * d)
     return (e)
